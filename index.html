@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html style="height: 100vh;">
+    <head>
+        <title>Households</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/favicon-32x32.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    </head>
+    <body style="margin: 0; min-height: 100vh;">
+        <div class="column">
+            <h1 style="text-align: center; margin-bottom: 0; font-weight: 500;">Households</h1>
+            <div style="text-align: center;">
+                <p style="padding: 0; margin-top: 0;">September 30, 2026</p>
+                <p style="padding-top: 0; margin-top: 0;">Mara Solen</p>
+            </div>
+            <p>
+                I lived in a lot of different places and with a lot of different people as a kid and teenager. My parents
+                split up when I was very young, and I moved back and forth between their houses every two days (i.e. 
+                Monday/Tuesday at mom's, Wednesday/Thursday at dad's, Friday to Sunday at mom's, and then the next week
+                would be the opposite). I would switch houses by going to school from one and then going home after school
+                to the other, so I would carry everything I needed to bring back and forth in my backpack every day, 
+                although I ended up having two of most things. Apparently, when I was a baby, I lived with my half sister
+                (we have the same dad) as well as my parents, but I don't remember that. My parents both eventually found 
+                new partners who each had kids from previous relationships. Both of these partners eventually moved in 
+                with the respective parent, and some step siblings also moved in and out at certain times. When I was 16, 
+                I went on exchange to Norway for one year, and I lived away from my parents. I moved out for university 
+                when I was 18. Explaining this whole situation is often pretty hard.
+            </p>
+            <br>
+            <p>
+                Given all of this movement between different places, and all of the times that I overlapped in household 
+                with different people, I decided to represent my experience using a metro map. Each coloured line 
+                represents someone in my family, starting from when they entered my life. When the lines group together, 
+                it means that all of those people lived together. I represented myself using a split line, since my life 
+                was split between two families and two households.
+            </p>
+            <br>
+        </div>
+
+        <div id="visualization-container" class="visualization-container">
+            <svg id="visualization" class="visualization"></svg>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/dayOfYear.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

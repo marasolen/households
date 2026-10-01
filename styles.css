@@ -1,0 +1,63 @@
+body {
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.visualization-container {
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    aspect-ratio: 1 / 2; 
+    width: 40%;
+    overflow: hidden;
+}
+
+.visualization {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.column {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1680px) {
+    .column {
+        width: 70%;
+    }
+
+    .visualization-container {
+        width: 70%;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 1280px) {
+    .column {
+        width: 95%;
+    }
+    
+    .visualization-container {
+        width: 90%;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 736px) {
+    .column {
+        width: 98%;
+    }
+}
